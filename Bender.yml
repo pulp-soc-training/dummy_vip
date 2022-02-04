@@ -8,6 +8,8 @@ export_include_dirs:
   - include
 
 sources:
+  defines:
+    ENABLE_DUMMY_VIP: ~
   files:
     - rtl/dummy_submodule.sv
     - rtl/dummy_top.sv
