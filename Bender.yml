@@ -1,9 +1,8 @@
 package:
   name: dummy_vip
 
-# No dependencies, left here as an example  
-# dependencies:
-#   common_cells:        { git: "https://github.com/pulp-platform/common_cells.git",       rev: "944538538befdbd26698800bfd24f808373e82b7" }
+dependencies:
+  common_cells:           { git: "https://github.com/pulp-platform/common_cells.git", version: 1.21.0 }
 
 export_include_dirs:
   - include
